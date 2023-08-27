@@ -1,5 +1,5 @@
 import Hexo from 'hexo';
-import * as safelink from 'safelinkify';
+import safelinkify from 'safelinkify';
 
 const defaultOptions = {
   // exclude patterns (dont anonymize these patterns)
@@ -29,5 +29,5 @@ export interface HexoSafelinkConfig {
 
 export function HexoSafelink(hexo: Hexo) {
   const options: HexoSafelinkConfig = hexo.config.safelink;
-  const sf = new safelink.safelink(options);
+  const sf = new safelinkify.safelink(options);
 }
