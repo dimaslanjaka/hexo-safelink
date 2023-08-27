@@ -1,0 +1,8 @@
+[submodule "packages/safelink"]
+	path = packages/safelink
+	url = https://github.com/dimaslanjaka/safelink.git
+	branch = monorepo
+[submodule "lib"]
+	path = lib
+	url = https://github.com/dimaslanjaka/hexo-safelink
+	branch = master
