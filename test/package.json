@@ -1,0 +1,18 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "hexo server"
+  },
+  "keywords": [],
+  "hexo": "",
+  "license": "ISC",
+  "dependencies": {
+    "hexo": "^7.0.0-rc2",
+    "hexo-generator-index": "^3.0.0",
+    "hexo-server": "^3.0.0"
+  }
+}
