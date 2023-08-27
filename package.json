@@ -4,9 +4,6 @@
   "version": "1.0.0",
   "description": "Anonymize external links using outbound page within hexo site project",
   "main": ".eslintrc.js",
-  "directories": {
-    "lib": "lib"
-  },
   "devDependencies": {
     "@types/eslint": "^8",
     "@types/prettier": "^3",
@@ -20,7 +17,7 @@
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "update:ncu": "npx npm-check-updates -u -x chalk,hexo,jsdom"
   },
   "keywords": [],
   "author": "",
