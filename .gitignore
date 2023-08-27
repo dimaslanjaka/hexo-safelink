@@ -1,5 +1,7 @@
 /dist/
 yarn.lock
+/lib
+/packages
 
 # Logs
 logs
