@@ -1,0 +1,17 @@
+{
+  "name": "hexo-safelink",
+  "version": "1.0.0",
+  "description": "Anonymize external links using outbound page within hexo site project",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
